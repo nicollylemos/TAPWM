@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../font/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins bold';
+    src: url('../font/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'garet';
+    src: url('../font/garet/Garet-Heavy.ttf');
+}
+
+:root {
+    /* cores */
+    --primary-color: #7fafc8;
+    --bg-color: #efefef;
+    --navbar-color: #f1efef;
+    --black-color: #2c2c2c;
+    --secondary-color: #6596b0;
+
+    /* transição */
+
+    --transition-3: 0.7s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--navbar-color);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 10px;
+
+}
+
+/* Logo */
+.navbar .logo {
+    font-family: garet;
+    font-size: large;
+    color: var(--primary-color);
+    margin-left: 60px;
+}
+
+
+.navbar .logo:hover {
+    color: var(--secondary-color);
+    transition: var(--transition-3);
+}
+
+/* Lista da navbar */
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--black-color);
+    font-weight: 500;
+}
+.nav-links a:hover {
+    text-decoration: none;
+    color: var(--primary-color);
+    
+}
+
+/* Conteúdo da página */
+.container{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10px;
+}
+.home-container {
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    margin: 90px 40px 30px 40px;
+    left: 30px;
+    display: flex;
+    text-align: justify;
+}
+
+.home-container .content p{
+    font-size: 18px;
+}
+.home-container .content h1 {
+    font-size: 62px;
+    font-family: poppins bold;
+    color: var(--black-color);
+    text-align: left;
+
+}
+/* Botões */
+
+.btn-devops {
+    background-color: var(--primary-color);
+    border: none;
+    width: 60%;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--bg-color);
+    cursor: pointer;
+}
+
+.btn-devops:hover {
+    background-color: var(--secondary-color);
+    transition: var(--transition-3);
+}
+
+.btn-ref{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: var(--primary-color) 3.5px solid;
+    width: 60%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Imagem Ilustração */
+
+.image {
+    background-image: url('../css/imgs/home.png');
+    width: 40%;
+    height: 90%;
+    background-size: contain;
+    background-repeat: none;
+    position: relative;
+    left: 53%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
