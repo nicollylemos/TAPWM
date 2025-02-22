@@ -31,6 +31,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+body{
     background-color: var(--bg-color);
 }
 
@@ -140,6 +142,11 @@
     cursor: pointer;
 }
 
+.btn-ref:hover{
+    border-color: var(--secondary-color);
+    transition: var(--transition-3);
+    color: var(--secondary-color);
+}
 /* Imagem Ilustração */
 
 .image {

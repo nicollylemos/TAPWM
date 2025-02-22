@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TAPWM - O que é DevOps?</title>
     <link rel="stylesheet" href="css/ler-mais.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
+    
     <!--Header-->
     <nav class="navbar">
-      
+
         <ul class="nav-links">
-            <li>  <a href="index.html" class="logo">Tapwm</a></li>
+            <li> <a href="index.html" class="logo">Tapwm <i class="fa-solid fa-computer" style="color: #7fafc8;"></i></a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="ler-mais.html">O que é DevOps?</a></li>
             <li><a href="#">Referências</a></li>
@@ -21,49 +24,118 @@
     </nav>
 
     <!--Home-->
+    <button onclick="scrollWin()" class="top-back"style="position:fixed"><i class="icon fa-solid fa-arrow-up" style="color: #ffffff;"></i></button>
+
     <section class="home">
         <div class="banner">
 
         </div>
-        <div class="container">
-           <h1>O que é DevOps</h1>
-           <p>Entenda um pouco mais sobre o que é DevOps.</p>
-           <h3>Sumário</h2>
-           <ul>
-            <li><a href="#conceitos">Conceitos</a></li>
-            <li><a href="#praticas">Práticas</a></li>
-            <li><a href="#ferramentas">Ferramentas</a></li>
-            <li><a href="#beneficios">Benefícios</a></li>
-            <li><a href="#exemplos">Exemplos</a></li>
-           </ul>
-           <p></p>
+        <div class="content">
+            <div class="introducao">
+                <div class="icon">  <i class="fa-solid fa-infinity" style="color: #2c2c2c;"></i></div>
+              
+                <h1>O que é DevOps</h1>
+                <p>Entenda um pouco mais sobre o que é DevOps: conceito, práticas, ferramentas e benefícios.</p>
+             
+                <div class="sumario">
+                
+                    <ul>
+                        <li><a href="#introducao">Introdução</a></li>
+                        <li><a href="#conceitos">Conceitos</a></li>
+                        <li><a href="#praticas">Práticas</a></li>
+                        <li><a href="#ferramentas">Ferramentas</a></li>
+                        <li><a href="#beneficios">Benefícios</a></li>
+                        <li><a href="#exemplos">Exemplos</a></li>
+                    </ul>
+                </div>
+            </div>
+              <!-- Texto sobre introdução -->
+               
+            
+              <div class="introdução box" id="introdução">
+                <h2>1. Introdução</h2>
+                <p>A metodologia DevOps é um conjunto de práticas, ferramentas e filosofias baseado na integração entre as equipes de operações e desenvolvimento durante todo o ciclo de vida do software, contribuindo para a entrega de um sistema com mais velocidade e qualidade. Assim, fomentar a cultura DevOps nas empresas permite que a equipe de operações compreenda com mais clareza os problemas do sistema, possibilitando que as soluções sejam encontradas com mais rapidez e efetividade.  
+
+                    Desse modo, a equipe de desenvolvimento consegue entregar resultados melhores, atendendo às necessidades do cliente. Há diversos fatores que explicam a crescente adoção dessa prática. O aumento da agilidade, da comunicação e da colaboração entre as equipes amplia o valor do negócio e dos projetos desenvolvidos, elevando o desempenho em grande escala.</p>
+            </div>
             <!-- Texto sobre conceitos -->
-           <div class="conceitos" id="conceitos">
-                <h2>Conceitos</h2>
-                <p></p>
-           </div>
+            <div class="conceitos box" id="conceitos">
+                <h2>1. Conceitos</h2>
+                <p>A metodologia DevOps é um conjunto de práticas, ferramentas e filosofias baseado na integração entre as equipes de operações e desenvolvimento durante todo o ciclo de vida do software, contribuindo para a entrega de um sistema com mais velocidade e qualidade. Assim, fomentar a cultura DevOps nas empresas permite que a equipe de operações compreenda com mais clareza os problemas do sistema, possibilitando que as soluções sejam encontradas com mais rapidez e efetividade.  
+
+                    Desse modo, a equipe de desenvolvimento consegue entregar resultados melhores, atendendo às necessidades do cliente. Há diversos fatores que explicam a crescente adoção dessa prática. O aumento da agilidade, da comunicação e da colaboração entre as equipes amplia o valor do negócio e dos projetos desenvolvidos, elevando o desempenho em grande escala.</p>
+            </div>
             <!-- Texto sobre práticas -->
-            <div class="praticas" id="praticas">
-                <h2>Práticas</h2>
-                <p></p>
+            <div class="praticas box" id="praticas">
+                <h2>2. Práticas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,
+                    totam rem necessitatibus esse?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,</p>
             </div>
             <!-- Texto sobre ferramentas -->
-            <div class="ferramentas" id="ferramentas">
-                <h2>Ferramentas</h2>
-                <p></p>
+            <div class="ferramentas box" id="ferramentas">
+                <h2>3. Ferramentas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,
+                    totam rem necessitatibus esse?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,</p>
             </div>
-             <!-- Texto sobre benefícios -->
-            <div class="beneficios" id="beneficios">
-                <h2>Benefícios</h2>
-                <p></p>
+            <!-- Texto sobre benefícios -->
+            <div class="beneficios box" id="beneficios">
+                <h2>4. Benefícios</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,
+                    totam rem necessitatibus esse?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,</p>
             </div>
-             <!-- Texto sobre exemplos -->
-            <div class="exemplos" id="exemplos">
-                <h2>Exemplos</h2>
-                <p></p>
+            <!-- Texto sobre exemplos -->
+            <div class="exemplos box" id="exemplos">
+                <h2>5. Exemplos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,
+                    totam rem necessitatibus esse?
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, nisi. Ad, odio dolorum.
+                    Officia
+                    temporibus fuga nesciunt harum soluta distinctio consequuntur magnam quia, veritatis, maxime
+                    natus,</p>
             </div>
+            <!-- Botão para ler referências-->
+             <a href=""><button class="btn-ref">Ler referências</button></a>
         </div>
+        
     </section>
+    
+    <div class="footer">
+       
+            <image class="me"></image>
+            Nicolly Lemos da Silva
+            <span>Publicado 21/02/2025</span>
+       
+    </div>
+ 
+<script>
+    function scrollWin() {
+      window.scrollTo(500,0);
+    }
+    </script>
 </body>
 
 </html>
