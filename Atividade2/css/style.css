@@ -112,6 +112,14 @@ body{
     text-align: left;
 
 }
+
+h1#titulo {
+    position: relative;
+}
+#descricao{
+    position: relative;
+}
+
 /* Botões */
 
 .btn-devops {
@@ -166,4 +174,19 @@ body{
     background-position: center;
     margin-top: 50px;
   
+}
+
+
+
+#titulo, #descricao, .btn {
+    position: relative;
+    left: -150px; /* Começa fora da tela */
+    transition: left 0.6s ease-out; /* Suaviza a entrada */
+}
+
+
+@media screen and (max-width: 690px) {
+    .image{
+        display: none;
+    }
 }

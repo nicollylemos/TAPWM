@@ -28,12 +28,16 @@
         <div class="container">
             <div class="home-container">
                 <div class="content">
-                    <h1>O que é DevOps?</h1>
-                    <p>DevOps é um conjunto de ideias, práticas e ferramentas que integra as equipes de operação e desenvolvimento, visando entregar resultados mais ágeis e eficientes, atendendo estrategicamente às demandas do cliente. Para ler mais sobre DevOps, seu conceito, práticas, ferramentas e benefícios, clique em "Ver Mais" logo abaixo.
+                    <h1 id="titulo">O que é DevOps?</h1>
+                    <p id="descricao">DevOps é um conjunto de ideias, práticas e ferramentas que integra as equipes de operação e desenvolvimento, visando entregar resultados mais ágeis e eficientes, atendendo estrategicamente às demandas do cliente. Para ler mais sobre DevOps, seu conceito, práticas, ferramentas e benefícios, clique em "Ver Mais" logo abaixo.
                         
                     </p>
-                    <a href="ler-mais.html"><button class="btn-devops">Ver Mais</button></a>
-                    <a href="referencias.html"><button class="btn-ref">Referências</button></a>
+                    <div class="btn">
+                        <a href="ler-mais.html"><button class="btn-devops">Ver Mais</button></a>
+                        <a href="referencias.html"><button class="btn-ref">Referências</button></a>
+                    </div>
+
+                   
                     
                 </div>
             </div>
@@ -42,6 +46,34 @@
             </div>
         </div>
     </section>
+    <script>
+        // Animações com JS
+        let position = -150;  // Posição inicial para os outros elementos (título, descrição, botões)
+        let imagePosition = 900;  // Posição inicial da imagem fora da tela à direita
+    
+        const titulo = document.getElementById('titulo');
+        const descricao = document.getElementById('descricao');
+        const image = document.getElementsByClassName('image')[0];
+        const btn = document.getElementsByClassName('btn')[0];
+    
+        // Função que realiza a animação
+        function move() {
+            // Mover os outros elementos (título, descrição, botões) da esquerda para a direita
+            if (position < 0) {
+                position += 3;
+                titulo.style.left = position + 'px';
+                descricao.style.left = position + 'px';
+                btn.style.left = position + 'px';
+            }
+    
+    
+            // Continuar a animação
+            requestAnimationFrame(move);
+        }
+    
+        move();  // Inicia a animação
+    </script>
+    
 </body>
 
 </html>
