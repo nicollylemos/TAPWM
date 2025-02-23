@@ -22,7 +22,7 @@
     --secondary-color: #6596b0;
 
     /* transição */
-    --transition-3: 0.7s;
+    --transition-3: 0.3s ease;
 }
 * {
     margin: 0;
@@ -90,7 +90,7 @@ body{
 
 /* Conteúdo */
 .content {
-    width: 70%;
+    width: 60%;
     margin: 30px auto;
     text-align: justify;
 }
@@ -105,7 +105,7 @@ body{
     font-family: poppins bold;
 }
 .content h2 {
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 10px;
 
 }
@@ -215,11 +215,13 @@ a{
     width: 45px;
     height: 45px;
     border-radius: 50px;
+    
 }
 
 .top-back:hover{
     background-color: var(--secondary-color);
     transition: var(--transition-3);
+    transform: scale(1.05); 
 }
 
 .icon{
@@ -227,4 +229,79 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icone {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    text-align: center; 
+    margin-top: 5px;
+}
+
+
+h3{
+    margin:20px 0px 10px 0px;
+}
+
+hr{
+    margin-top: 30px;
+}
+.praticas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.praticas .box {
+    width: 280px;
+    height: 370px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin: 5px;
+    font-size: 14.4px;
+    background-color: #e7e5e5;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgb(168, 167, 167);
+}
+
+.praticas h3{
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px; 
+    color: #333;
+    margin-top: 25px; 
+    margin-bottom: 8px; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+    text-transform: capitalize; 
+   
+}
+.praticas .box:hover {
+    transform: scale(1.05); 
+    transition: var(--transition-3)
+}
+
+/* Exemplos */
+
+.exemplos-empresas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+img{
+    width: 400px;
+    height: 250px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: var(--transition-3);
 }

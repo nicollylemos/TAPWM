@@ -23,7 +23,7 @@
 
     /* transição */
 
-    --transition-3: 0.7s;
+    --transition-3: 0.3s ease;
 }
 
 * {
@@ -55,9 +55,14 @@ body{
 }
 
 
-.navbar .logo:hover {
+.navbar .fa-computer {
+    color: var(--primary-color); /* Cor inicial do ícone */
+}
+
+.navbar .logo:hover,
+.navbar .fa-computer:hover{
     color: var(--secondary-color);
-    transition: var(--transition-3);
+        
 }
 
 /* Lista da navbar */
@@ -160,4 +165,5 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
+  
 }
