@@ -6,6 +6,9 @@
 <h2> Atividade 2</h2>
 <p>Pesquisa em formato de site sobre DevOps</p>
 
+<h2> Atividade 3</h2>
+<p>Projeto horista, mesário e empregado utilizando C#</p>
+
 <h2> Certificados</h2>
 <p>Certificados com os cursos para a contagem de 20 horas</p>
 
