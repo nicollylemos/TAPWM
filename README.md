@@ -9,6 +9,9 @@
 <h2> Atividade 3</h2>
 <p>Projeto horista, mesário e empregado utilizando C#</p>
 
+<h2> Atividade 4</h2>
+<p>Exercício média e operações utilizando JavaScript</p>
+
 <h2> Certificados</h2>
 <p>Certificados com os cursos para a contagem de 20 horas</p>
 
