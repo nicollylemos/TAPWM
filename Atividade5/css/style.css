@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(233, 233, 233);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box{
+    width: 50%;
+    height: 70vh;
+    background-color: rgb(253, 253, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto; /* Margem automática nas laterais */
+    border-radius: 20px;
+    border: 1px solid rgb(210, 209, 209);
+}
+
+
+
+.content .header h1{
+    color: rgb(52, 52, 52);
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+
+.content {
+    justify-content: center;    /* Centraliza horizontalmente */
+    height: 100%;             /* Altura total da viewport */
+    text-align: center;        /* Centraliza texto dos elementos filhos */
+}
+
+.content button {
+    background-color: transparent;
+    width: 15vw;              /* Largura relativa à viewport */
+    height: 20vh;             /* Altura relativa à viewport */
+    min-width: 100px;         /* Largura mínima para evitar ficar muito pequeno */
+    min-height: 50px;         /* Altura mínima */
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #000;
+    cursor: pointer;          /* Muda cursor para indicar elemento clicável */
+    transition: all 0.3s ease; /* Suaviza efeitos de hover/focus */
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: rgb(233, 233, 233);
+    color: rgb(59, 59, 59);
+    transform: scale(1.05);   /* Aumenta o botão ao passar o mouse */
+}
+
+.icon{
+    font-size: 35px;
+    color: rgb(59, 59, 59);
+}
+
+.resultados{
+    display: block;
+    width: 100%;              /* Largura relativa à viewport */
+    height: 20vh;   
+}
