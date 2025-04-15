@@ -12,6 +12,9 @@
 <h2> Atividade 4</h2>
 <p>Exercício média e operações utilizando JavaScript</p>
 
+<h2> Atividade 5</h2>
+<p>Exercício utilizando random() e math.floor para desenvolver um jogo de pedra, papel ou tesoura em JavaScript.</p>
+
 <h2> Certificados</h2>
 <p>Certificados com os cursos para a contagem de 20 horas</p>
 
