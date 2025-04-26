@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Aplicando Poppins */
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeebeb;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+    border-radius: 15px;
+    border: 2px solid #d4d2d2;
+}
+button {
+    background-color:#b776c5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Poppins', Arial, sans-serif;
+    width: 100%;
+}
+button:hover {
+    background-color: #dc99eb;
+}
+#resultado {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 4px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Triângulos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificador de Triângulos</h1>
+        <p>Insira os três valores para verificar se formam um triângulo e qual seu tipo:</p>
+        
+        <label for="ladoA">Lado A:</label>
+        <input type="text" id="ladoA" placeholder="Digite o valor de A">
+        
+        <label for="ladoB">Lado B:</label>
+        <input type="text" id="ladoB" placeholder="Digite o valor de B">
+        
+        <label for="ladoC">Lado C:</label>
+        <input type="text" id="ladoC" placeholder="Digite o valor de C">
+        
+        <button onclick="verificarTriangulo()">Verificar</button>
+        
+        <div id="resultado"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
