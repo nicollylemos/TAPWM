@@ -18,6 +18,9 @@
 <h2> Atividade 6</h2>
 <p>Exercício pesquisa de opinião.</p>
 
+<h2> Atividade 7</h2>
+<p>Verificar triângulos.</p>
+
 <h2> Certificados</h2>
 <p>Certificados com os cursos para a contagem de 20 horas</p>
 
