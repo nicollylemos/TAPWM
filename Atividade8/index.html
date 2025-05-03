@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="content">
+             <!--Div para a Função maiorNumero-->
+            <div class="maiorNumero">
+                <h2>Maior Número</h2>
+                <p>Digite três números e descubra qual deles é o maior.</p>
+                <label for="primeiroNumero">Primeiro Número:</label>
+                <input type="number" id="primeiroNumero" placeholder="Digite o primeiro número" required>
+                <label for="segundoNumero">Segundo Número:</label>
+                <input type="number" id="segundoNumero" placeholder="Digite o segundo número" required>
+                <label for="terceiroNumero">Terceiro Número:</label>
+                <input type="number" id="terceiroNumero" placeholder="Digite o terceiro número" required>
+                <button onclick="maiorNumero();">Enviar</button>
+                <div id="resultadoMaiorNumero"></div>
+            </div>
+            <!--Div para a Função ordemCescente-->
+            <div class="ordemCrescente">
+                <h2>Ordem Crescente</h2>
+                <p>Digite três números e descubra a ordem crescente deles.</p>
+                <label for="primeiroNumero">Primeiro Número:</label>
+                <input type="number" id="primeiroValor" placeholder="Digite o primeiro número" required>
+                <label for="segundoNumero">Segundo Número:</label>
+                <input type="number" id="segundoValor" placeholder="Digite o segundo número" required>
+                <label for="terceiroNumero">Terceiro Número:</label>
+                <input type="number" id="terceiroValor" placeholder="Digite o terceiro número" required>
+                <button onclick="ordemCrescente();">Enviar</button>
+                <div id="resultadoOrdemCrescente"></div>
+            </div>
+            <!--Div para a Função verificarPalindromo-->
+            <div class="palindromo">
+                <h2>Palíndromo</h2>
+                <p>Digite uma palavra e descubra se ela é um palíndromo.</p>
+                <label for="palavra">Palavra:</label>
+                <input type="text" id="palavra" placeholder="Digite uma palavra" required>
+                <button onclick="verificarPalindromo();">Enviar</button>
+                <div id="resultadoPalindromo"></div>
+            </div>
+            <!--Div para a Função receberPalavras-->
+            <div class="receberPalavras">
+                <h2>Receber Palavras</h2>
+                <p>Digite duas palavras e descubra se a segunda é um subconjunto da primeira.</p>
+                <label for="palavra1">Primeira Palavra:</label>
+                <input type="text" id="palavra1" placeholder="Digite a primeira palavra" required>
+                <label for="palavra2">Segunda Palavra:</label>
+                <input type="text" id="palavra2" placeholder="Digite a segunda palavra" required>
+                <button onclick="verificarSubconjunto(document.getElementById('palavra1').value, document.getElementById('palavra2').value)">Enviar</button>
+                <div id="resultadoReceberPalavras"></div>
+            </div>
+            
+        </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
