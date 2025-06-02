@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Atividade 2 - Conta com Herança</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="atvd2.css">
+ 
+</head>
+<body>
+  <div class="container">
+    <h1>Atividade 2 - Conta com Herança</h1>
+
+    <div class="form-section">
+      <h2>Conta Corrente</h2>
+      <label for="nomeCorrente">Nome:</label>
+      <input type="text" id="nomeCorrente" />
+
+      <label for="bancoCorrente">Banco:</label>
+      <input type="text" id="bancoCorrente" />
+
+      <label for="numeroContaCorrente">Número da Conta:</label>
+      <input type="text" id="numeroContaCorrente" />
+
+      <label for="saldoCorrente">Saldo:</label>
+      <input type="number" id="saldoCorrente" step="0.01" />
+
+      <label for="saldoEspecialCorrente">Saldo Especial:</label>
+      <input type="number" id="saldoEspecialCorrente" step="0.01" />
+    </div>
+
+    <div class="form-section">
+      <h2>Conta Poupança</h2>
+      <label for="nomePoupanca">Nome:</label>
+      <input type="text" id="nomePoupanca" />
+
+      <label for="bancoPoupanca">Banco:</label>
+      <input type="text" id="bancoPoupanca" />
+
+      <label for="numeroContaPoupanca">Número da Conta:</label>
+      <input type="text" id="numeroContaPoupanca" />
+
+      <label for="saldoPoupanca">Saldo:</label>
+      <input type="number" id="saldoPoupanca" step="0.01" />
+
+      <label for="jurosPoupanca">Juros (ex: 0.025 para 2.5%):</label>
+      <input type="number" id="jurosPoupanca" step="0.0001" />
+
+      <label for="dataVencimentoPoupanca">Data de Vencimento:</label>
+      <input type="date" id="dataVencimentoPoupanca" />
+    </div>
+
+    <button onclick="exibirContas()">Exibir Contas</button>
+
+    <pre id="saida"></pre>
+
+    <button onclick="voltar()">Voltar ao Menu</button>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
