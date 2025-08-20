@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário Principal</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <form name="formulario" onsubmit="return validar()">
+    <h2>Formulário Principal</h2>
+
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome">
+
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email">
+
+    <label for="comentario">Comentário:</label>
+    <textarea name="comentario" id="comentario"></textarea>
+
+    <label>Pesquisa:</label>
+    <div class="radios">
+        <p>Primeira vez nessa página:</p>
+      <label><input type="radio" name="pesquisa" value="sim"> Sim</label>
+      <label><input type="radio" name="pesquisa" value="nao"> Não</label>
+    </div>
+
+    <div class="buttons">
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpar</button>
+    </div>
+  </form>
+</body>
+</html>
+<script src="script.js"></script>
