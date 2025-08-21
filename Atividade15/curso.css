@@ -1,0 +1,27 @@
+    body{
+      margin:0;
+      font-family:"Poppins", sans-serif;
+      background:#0b1220;
+      color:#e5e7eb;
+      display:grid;
+      place-items:center;
+      min-height:100vh;
+      padding:20px;
+    }
+    .card{
+      background:#111827;
+      padding:24px;
+      border-radius:18px;
+      box-shadow:0 18px 40px rgba(0,0,0,.4);
+      width:min(500px, 95vw);
+    }
+    h2{
+      font-family:"Rozha One", serif;
+      margin-top:0;
+      font-size:1.6rem;
+      background:linear-gradient(90deg,#fff,#a78bfa);
+      -webkit-background-clip:text;
+      background-clip:text;
+      color:transparent;
+    }
+    p{color:#d1d5db; line-height:1.6;}
